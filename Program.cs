@@ -40,7 +40,7 @@ namespace theConsoleLottery_gruppövning
                 bool exist = false;
 
                 Console.Write("\nSkriv in ett nummer mellan 1-50: ");
-                int userInput = UserInput(1, 51); //Kallar på metod UserInput för se att inmatning innehåller tillåtna siffror.
+                int userInput = UserInput(1, 50); //Kallar på metod UserInput för se att inmatning innehåller tillåtna siffror.
 
                 //Loopar så många gånger som countForIndexs värde
                 for (int i = 0; i < countForIndex; i++)
